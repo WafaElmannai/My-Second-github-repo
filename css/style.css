@@ -25,10 +25,10 @@ a{/*link format(for me I didnt use any)*/
   margin: 2%;
 }
 .content {
-  line-height: 25px;
+  background-color:#ffff;
   border-radius: 5px;
   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  float: left;
 }
 
 
