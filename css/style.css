@@ -25,6 +25,11 @@ a{/*link format(for me I didnt use any)*/
   margin: 3% 0;
 }
 
+content{
+  width: 70%;
+  float:left;
+}
+
 .FirstContent{
   background-color: #FFF;
   border-radius: 5px;
@@ -32,6 +37,24 @@ a{/*link format(for me I didnt use any)*/
 }
 
 .SecondContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding 3%
+}
+
+.FourthContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding 3%
+}
+
+.FifthContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding 3%
+}
+
+.SixthContent{
   background-color: #FFF;
   border-radius: 5px;
   padding 3%
