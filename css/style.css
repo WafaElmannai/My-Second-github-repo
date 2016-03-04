@@ -39,23 +39,33 @@ content{
 .SecondContent{
   background-color: #FFF;
   border-radius: 5px;
-  padding 3%
+  padding: 3% 5%;
+  margin-top: 2%;
 }
 
-.FourthContent{
+.ThirdContent{
   background-color: #FFF;
   border-radius: 5px;
-  padding 3%
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+.FourthContent{
+    background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
 }
 
 .FifthContent{
-  background-color: #FFF;
+   background-color: #FFF;
   border-radius: 5px;
-  padding 3%
+  padding: 3% 5%;
+  margin-top: 2%;
 }
 
 .SixthContent{
-  background-color: #FFF;
+   background-color: #FFF;
   border-radius: 5px;
-  padding 3%
+  padding: 3% 5%;
+  margin-top: 2%;
 }
