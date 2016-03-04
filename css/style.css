@@ -16,7 +16,7 @@ a{/*link format(for me I didnt use any)*/
 .body{
   margin: auto;
   width: 60%;
-  clear:both;/*no flouding elements in left or right*/
+  clear:both;/*no floating elements in left or right*/
 }
 
 .mainHeader img{
@@ -66,4 +66,22 @@ a{/*link format(for me I didnt use any)*/
   border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
+}
+
+.FirstAside{
+  width: 25%;
+  float:left;
+  background-color:#FFF;
+}
+
+.SecondAside{
+  width: 25%;
+  float:left;
+  background-color:#FFF;
+}
+
+.ThirdAside{
+  width: 25%;
+  float:left;
+  background-color:#FFF;
 }
