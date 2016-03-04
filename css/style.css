@@ -19,7 +19,7 @@ a{/*link format(for me I didnt use any)*/
   clear:both;/*no flouding elements in left or right*/
 }
 
-.mainHeader img{
+.mainheader img{
   width: 30%;
   height: auto;/*automatic adjusting*/
   margin: 2% 0;
