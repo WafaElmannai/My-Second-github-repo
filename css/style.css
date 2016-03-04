@@ -33,7 +33,8 @@ content{
 .FirstContent{
   background-color: #FFF;
   border-radius: 5px;
-  padding 3%
+  padding: 3% 5%;
+  margin-top: 2%;
 }
 
 .SecondContent{
