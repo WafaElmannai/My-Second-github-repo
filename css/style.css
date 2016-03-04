@@ -34,21 +34,21 @@ content{
 
 .FirstContent{
   background-color: #FFF;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
 }
 
 .SecondContent{
   background-color: #FFF;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
 }
 
 .ThirdContent{
   background-color: #FFF;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
 }
@@ -81,17 +81,16 @@ content{
 }
 
 .EightContent{
-   background-color: #FFF;
+  background-color: #FFF;
   border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
 }
 
 .mainFooter {
-  width: 100;
-  float: left;
-  border-radius:5px;
   background-color: #666;
+  border-radius:5px;
+  padding: 3% 5%;
   margin-top: 2%;
   margin-bottom:2%;
 }
