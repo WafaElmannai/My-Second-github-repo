@@ -100,3 +100,12 @@ a{/*link format(for me I didnt use any)*/
   margin-bottom: 2%;
   padding: 2% 3%;
 }
+
+.mainFooter {
+  width: 100;
+  float: left;
+  background-color: #666;
+    border-radius:5px;
+
+  margin-top: 2%;
+}
