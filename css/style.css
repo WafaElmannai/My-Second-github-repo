@@ -13,21 +13,22 @@ a{/*link format(for me I didnt use any)*/
   text-decoration: none;
 }
 
-.body{
+body{
   margin: 0 auto;
   width 70%;
   clear:both;/*no flouding elements in left or right*/
 }
 
-.header img{
+header img{
   width: 30%;
   height: auto;/*automatic adjusting*/
   margin: 2%;
 }
-.div {
+
+div {
   background-color:#ffff;
   border-radius: 5px;
-  -moz-border-radius: 5px;
+  
   float: left;
 }
 
