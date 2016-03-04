@@ -88,11 +88,11 @@ content{
 }
 
 .mainFooter {
+  width: 100;
   background-color: #666;
   border-radius:5px;
   padding: 3% 5%;
-  margin-top: 2%;
-  margin-bottom:2%;
+
 }
 
 .mainFooter p{
