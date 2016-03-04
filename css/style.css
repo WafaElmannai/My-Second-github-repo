@@ -1,5 +1,5 @@
 /* All style should go in this document. */
-body{
+.body{
   background-color: #B76E79;
   color: #000305;
   font-size: 87.5%;
@@ -13,13 +13,13 @@ a{/*link format(for me I didnt use any)*/
   text-decoration: none;
 }
 
-body{
+.body{
   margin: 0 auto;
   width 70%;
   clear:both;/*no flouding elements in left or right*/
 }
 
-header img{
+.header img{
   width: 30%;
   height: auto;/*automatic adjusting*/
   margin: 2%;
