@@ -104,8 +104,13 @@ a{/*link format(for me I didnt use any)*/
 .mainFooter {
   width: 100;
   float: left;
+  border-radius:5px;
   background-color: #666;
-    border-radius:5px;
-
   margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.mainFooter p{
+  width: 92%;
+  margin: 2% auto;
 }
