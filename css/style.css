@@ -26,6 +26,10 @@ a{/*link format(for me I didnt use any)*/
   
 }
 
+content{
+  width: 70%;
+  float:left;
+}
 
 .FirstContent{
   background-color: #FFF;
@@ -69,19 +73,25 @@ a{/*link format(for me I didnt use any)*/
 }
 
 .FirstAside{
-  width: 25%;
+  width: 27%;
   float:left;
   background-color:#FFF;
+  border-radius:5x;
+  margin-left:3%;
 }
 
 .SecondAside{
-  width: 25%;
+  width: 27%;
   float:left;
   background-color:#FFF;
+  border-radius:5x;
+  margin-left:3%;
 }
 
 .ThirdAside{
-  width: 25%;
+  width: 27%;
   float:left;
   background-color:#FFF;
+  border-radius:5x;
+  margin-left:3%;
 }
