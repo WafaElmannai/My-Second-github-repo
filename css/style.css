@@ -21,16 +21,8 @@ body{
 
 header img{
   width: 30%;
-  
   height: auto;/*automatic adjusting*/
   margin: 2%;
-}
-
-div {
-  background-color:#ffff;
-  border-radius: 5px;
-  
-  float: left;
 }
 
 
