@@ -35,7 +35,7 @@ content{
 .FirstContent{
   background-color: #FFF;
   border-radius: 5px;
-  padding: 3% 5%;
+  padding: 3% 5%;/* generats space around the content*/
   margin-top: 2%;
 }
 
