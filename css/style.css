@@ -4,7 +4,7 @@ body{
   color: #000305;
   font-size: 87.5%;
   font-family: Arial;
-  line-hight: 1.5;
+  line-height: 1.5;
   text-align:left;
 }/*above are the stanfrad format that you want on any webpage*/
 
@@ -25,7 +25,7 @@ a{/*link format(for me I didnt use any)*/
   margin: 2%;
 }
 .content {
-  line: 25px;
+  line-height: 25px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
