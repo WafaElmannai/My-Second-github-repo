@@ -78,7 +78,7 @@ content{
   float:left;
   background-color:#FFF;
   border-radius:5x;
-  margin-left:3%;
+  margin-left:2% 3%;
   
 }
 
@@ -87,7 +87,7 @@ content{
   float:left;
   background-color:#FFF;
   border-radius:5x;
-  margin-left:3%;
+  margin-left:2% 3%;
 }
 
 .ThirdAside{
@@ -95,5 +95,5 @@ content{
   float:left;
   background-color:#FFF;
   border-radius:5x;
-  margin-left:3%;
+  margin-left:2% 3%;
 }
