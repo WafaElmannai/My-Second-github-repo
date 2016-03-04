@@ -2,11 +2,11 @@
 body{
   background-color: #B76E79;
   color: #000305;
-  font-size: 90.5%;
+  font-size: 100%;
   font-family: Serif;
   line-height: 1.5;
   text-align:left;
-}/*above are the stanfrad format that you want on any webpage*/
+}/*above are the standrad format that you want on any webpage*/
 
 
 a{/*link format(for me I didnt use any)*/
@@ -26,15 +26,6 @@ a{/*link format(for me I didnt use any)*/
   
 }
 
-div {
-    border: 3px solid blue;
-    color: #BBB;
-}
-
-content{
-  width: 70%;
-  float:left;
-}
 
 .FirstContent{
   background-color: #FFF;
