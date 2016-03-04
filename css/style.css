@@ -24,8 +24,8 @@ a{/*link format(for me I didnt use any)*/
   height: auto;/*automatic adjusting*/
   margin: 2%;
 }
-.Content {
-  line-hight: 25px;
+.content {
+  line: 25px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
