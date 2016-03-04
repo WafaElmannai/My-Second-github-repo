@@ -1,4 +1,8 @@
 /* All style should go in this document. */
 body{
   background-color #F08080;
+  color: #000305;
+  font-size: 87.5%;
+  font-family: Arial;
+  line-hight: 1.5;
 }
