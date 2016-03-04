@@ -73,7 +73,7 @@ content{
 }
 
 .FirstAside{
-  width: 27%;
+  width: 21%;
   float:left;
   background-color:#FFF;
   border-radius:5x;
@@ -82,7 +82,7 @@ content{
 }
 
 .SecondAside{
-  width: 27%;
+  width: 21%;
   float:left;
   background-color:#FFF;
   border-radius:5x;
@@ -90,7 +90,7 @@ content{
 }
 
 .ThirdAside{
-  width: 27%;
+  width: 21%;
   float:left;
   background-color:#FFF;
   border-radius:5x;
