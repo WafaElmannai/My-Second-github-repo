@@ -23,6 +23,11 @@ a{/*link format(for me I didnt use any)*/
   width: 30%;
   height: auto;/*automatic adjusting*/
   margin: 3% 0;
+  
+}
+
+div {
+    border: 3px solid blue;
 }
 
 content{
