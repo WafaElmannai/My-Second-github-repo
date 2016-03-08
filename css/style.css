@@ -1,1 +1,104 @@
 /* All style should go in this document. */
+body{
+  background-color: 	#DEB887;
+  color: #000305;
+  font-size: 100%;
+  font-family: Serif;
+  line-height: 1.5;
+  text-align:left;
+}/*above are the standrad format that you want on any webpage*/
+
+
+a{/*link format(for me I didnt use any)*/
+  text-decoration: none;
+}
+
+.body{
+  margin: 0 auto;
+  width: 70%;
+  clear:both;/*no floating elements in left or right*/
+}
+
+.mainHeader img{
+  width:30%;
+  height: auto;/*automatic adjusting*/
+  
+  margin: 3% 0;
+  
+}
+
+content{
+  width: 70%;
+  float: left;
+}
+
+.FirstContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: 2%;
+}
+
+.SecondContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.ThirdContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+.FourthContent{
+    background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.FifthContent{
+   background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.SixthContent{
+   background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.SeventhContent{
+   background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.EightContent{
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.mainFooter {
+  width: 100;
+  background-color: #ff9966;
+  border-radius:5px;
+
+   margin-top: 2%;
+   margin-bottom: 3%;
+
+
+}
+
+.mainFooter p{
+  width: 92%;
+margin: 2% 3%;
+}
