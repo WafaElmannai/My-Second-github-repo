@@ -1,11 +1,19 @@
 /* All style should go in this document. */
 body{
-  background-color: 	#DEB887;
+ 
+  background: url(https://c.stocksy.com/a/Gwh000/z0/168904.jpg) no-repeat fixed ;
+    background-size: 100%;
+   -webkit-background-size:100%;
+   -moz-background-size:100%;
+  -o-background-size:100%;
   color: #000305;
-  font-size: 100%;
-  font-family: Serif;
+  
+  font-family: Arial;
   line-height: 1.5;
   text-align:left;
+  margin: 0 auto;
+  width: 80%;
+  /*no floating elements in left or right*/
 }/*above are the standrad format that you want on any webpage*/
 
 
@@ -13,92 +21,241 @@ a{/*link format(for me I didnt use any)*/
   text-decoration: none;
 }
 
-.body{
-  margin: 0 auto;
-  width: 70%;
-  clear:both;/*no floating elements in left or right*/
-}
+.mainHeader{
+  text-align: center;
+  font-family: arial;
+
+} 
 
 .mainHeader img{
-  width:30%;
-  height: auto;/*automatic adjusting*/
-  
-  margin: 3% 0;
-  
+  border-radius: 50% ;
+  border: 5px solid white;
+ /* margin: 50%;*/
 }
 
-content{
-  width: 70%;
-  float: left;
+.mainHeader h2{
+  font-size: 2em;
+  color: #3498DB  ;
 }
+
+.mainHeader h3{
+   font-size: 2em;
+  color: #D35400  ; 
+}
+
+
 
 .FirstContent{
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 36%;
+  height: 180px;
   background-color: #FFF;
   border-radius: 5px;
   padding: 3% 5%;/* generats space around the content*/
   margin-top: 2%;
+  vertical-align: top;
+ /* float: right;*/
 }
+
+ .FirstContent h2{
+  color: red;
+  }
 
 .SecondContent{
-  background-color: #FFF;
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 36%;
+  height: 180px;
+  background-color: grey;
   border-radius: 5px;
-  padding: 3% 5%;
+  padding: 3% 5%;/* generats space around the content*/
   margin-top: 2%;
+  vertical-align: top;
 }
+ .SecondContent h2{
+  color: white;
+  }
+
+   .SecondContent p{
+  color: white;
+  }
 
 .ThirdContent{
-  background-color: #FFF;
+  /*margin-right: 27%;*/
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 50%;
+  height: 180px;
+  background-color: grey;
   border-radius: 5px;
-  padding: 3% 5%;
+  padding: 3% 5%;/* generats space around the content*/
   margin-top: 2%;
-}
-.FourthContent{
-    background-color: #FFF;
-  border-radius: 5px;
-  padding: 3% 5%;
-  margin-top: 2%;
-}
-
-.FifthContent{
-   background-color: #FFF;
-  border-radius: 5px;
-  padding: 3% 5%;
-  margin-top: 2%;
+  vertical-align: top;
 }
 
-.SixthContent{
-   background-color: #FFF;
-  border-radius: 5px;
-  padding: 3% 5%;
-  margin-top: 2%;
-}
+.ThirdContent h2{
+  color: white;
+  }
+   .ThirdContent ul{
+  color: white;
+  }
 
 .SeventhContent{
-   background-color: #FFF;
-  border-radius: 5px;
-  padding: 3% 5%;
-  margin-top: 2%;
-}
-
-.EightContent{
+  /* margin-right: 27%;*/
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 22%;
+  height: 420px;
   background-color: #FFF;
   border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: 2%;
+
+  vertical-align: top;
+}
+
+
+  .SeventhContent h2{
+  color: red;
+  }
+
+
+  .SeventhContent p{
+  color: white;
+  }
+
+  .EightContent{
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 50%;
+  height: 135px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: -220px;
+  vertical-align: top;
+}
+
+  .EightContent h2{
+  color: red;
+  }
+
+.FourthContent{
+ display: inline-block;
+  margin: 0 1.5%;
+  width: 50%;
+  height: 820px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: 0.5%;
+  vertical-align: top;
+}
+
+
+  .FourthContent h2{
+  color: red;
+  }
+
+  .FourthContent dl{
+  color: black;
+  }
+
+  .FifthContent { 
+display: inline-block;
+  margin: 0 1.5%;
+  width: 22%;
+  height: 520px;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: 0.5%;
+  vertical-align: top;
+}
+
+  .FifthContent h2{
+  color: white;
+  }
+
+  .FifthContent ul{
+  color: white;
+  }
+
+.contactInfo{
+ display: inline-block;
+  margin: 0 65%;
+  width: 22%;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3% 5%;/* generats space around the content*/
+  margin-top: -280px;
+  vertical-align: top;
+}
+
+.contactInfo h2{
+  color: white;
+  }
+.contactInfo p{
+  color: black;
+  }
+
+.SixthContent{
+  margin: 0 1.5%;
+  width: 86%; 
+   background-color: grey;
+  border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
 }
 
-.mainFooter {
-  width: 100;
-  background-color: #ff9966;
-  border-radius:5px;
+.SixthContent h2{
+  color: white;
+  }
+.SixthContent dl{
+  color: white;
+  }
 
-   margin-top: 2%;
-   margin-bottom: 3%;
+
+
+.mainFooter {
+  background-color:white;
+background-size: 100%;
+width: 100%;
+font-size: 1em;
+color: #A93226;
+margin-top: 2%;
+margin-bottom: 3%;
+  
 
 
 }
 
 .mainFooter p{
-  width: 92%;
-margin: 2% 3%;
+   display: inline-block;
+
+  width: 20%;
+  margin: 1% 2%;
+
 }
+
+.mainFooter img{
+ display: inline-block;
+float: right;
+  width: 40px;
+  height: 40px;
+
+
+ }
+
+ .trans{
+margin: 4px;
+opacity: 0.5;
+ }
+
+  .trans:hover{
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  opacity: 1;
+ }
