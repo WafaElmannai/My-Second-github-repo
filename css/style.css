@@ -96,10 +96,10 @@ a{/*link format(for me I didnt use any)*/
 
 .ThirdContent h2{
   color: white;
-  }
+}
    .ThirdContent ul{
   color: white;
-  }
+}
 
 .SeventhContent{
   /* margin-right: 27%;*/
@@ -195,7 +195,7 @@ display: inline-block;
 }
 
 .contactInfo h2{
-  color: white;
+  color: red;
   }
 .contactInfo p{
   color: black;
