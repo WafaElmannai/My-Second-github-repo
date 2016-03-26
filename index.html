@@ -3,165 +3,253 @@
     <head>
         <meta charset="UTF-8">
         <title>Wafa Elmannai Website </title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
         <script src="js/"></script>
+
+        <!--import font-awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!--import Mfizz font -->
+        <link rel="stylesheet" href="font-mfizz-2.3.0/font-mfizz.css">
+
+        <!--import viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" media="screen and (max-width: Xpx) and (min-width: Ypx)" href="stylesheet.css" />
+
+        <!--import jquery files-->
+        <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+
+        <!--JavaScript function for pictures slider-->
+        <script type="text/javascript">
+          $(function() {
+              $('#play').click(function() { $('#slider').cycle('resume'); return false; });
+
+              $('#pause').click(function() { $('#slider').cycle('pause'); return false; });
+
+              $('#slider').cycle({
+                fx:     'scrollHorz',
+                next:   '#next',
+                prev:    '#prev',
+                pager:   '#pager',
+                timeout:   3000,
+                speed:    900,
+              });
+          });
+        </script> <!--End of JavaScript code-->
+
     </head>
-  
+
     <body>
+      <div id="section-topbar">
+      <div id="topbar-inner">
+      <div class="container">
+      <div class="row">
+      <div class="dropdown">
+        <ul id="nav" class="nav">
+          <li class="menu-item"><a data-scroll href="#about" title="About"><i class="fa fa-user"></i></a></li>
+          <li class="menu-item"><a data-scroll href="#resume" title="Resume"><i class="fa fa-file"></i></a></li>
+          <li class="menu-item"><a data-scroll href="#skills" title="Skills"><i class="fa fa-wrench"></i></a>
+          <li class="menu-item"><a data-scroll href="#awards" title="Awards"><i class="fa fa-star"></i></a></li>
+          <li class="menu-item"><a data-scroll href="#contact" title="Contact"><i class="fa fa-paper-plane"></i></a></li>
+        </ul><!--/ uL#nav -->
+      </div><!-- /.dropdown -->
+      </div><!--/.row -->
+      </div><!--/.container -->
+      </div><!--/ #topbar-inner -->
+      </div><!--/ #section-topbar -->
 
-        <div class="mainHeader"> 
-        <img src="Wafa4.jpg"  alt="Wafa" />   
-          <h2> Hi, I'am Wafa Elmannai </h2> 
-          <h3>Ph.D. Student</h3>
+      <!-- pictures slider symbols-->
+      <div id="hero">
+      <div id="pager"></div>
+      <div id="pause">&asymp;</div>
+      <div id="play">&Delta;</div>
+      <div id="next">&rang;</div>
+      <div id="prev">&lang;</div>
 
-       </div>
-         
+      <!--my 5 pictures to be slided -->
+      <div id="slider">
+        <div class="items">
+          <img src="http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg">
+        </div><!--end item1-->
 
-        
-   <div  class= "FirstContent">
-            <h2>Objective</h2>
-            <p>Seeking funding to enhance my skills while continuing my ongoing research </p>
-</div>
+        <div class="items">
+          <img src="https://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg">
+        </div><!--end item2-->
 
- <div class= "SecondContent"> 
-            <h2>M.S Thesis</h2>
-            <P>‘TCP-UB: A new congestion aware transmission control protocol variant’, Advisor: Elleithy, Computer Science and Engineering, University of Bridgeport, 2012</P>
-</div>
+        <div class="items">
+          <img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg">
+        </div><!--end item3-->
 
-<div class= "ThirdContent">
-         <ul>
-             <h2>Education</h2>
+        <div class="items">
+          <img src="http://www.ontarioslakecountry.com/sites/default/files/Nature-Image-Wallpapers-HD-1024x576.jpg">
+        </div><!--end item4-->
+
+          <div class="items">
+           <img src="http://wowslider.com/sliders/demo-85/data1/images/southtyrol350698.jpg">
+          </div><!--end item5-->  
+        </div><!--end slider-->
+      </div><!--END-HERO-->
+<!--End of Pictures slider-->
+
+      <!-- Section 1 about me  -->  
+      <section id="about" name="about">  
+        <div  class= "first-content">
+          <h2>About Me:</h2>
+          <h4>Hi, I am Wafa Elmannai, PhD student</h4><br>
+          	<p>I am Seeking funding to enhance my skills while continuing my ongoing research. I am also doble in C sharp Programming Language, C++, Delphi OOP Programming Language, Database: Oracle 10g, SQL Service and MySQL, Distributed and parallel Database 
+          	</p>
+        </div>
+      </section> 
+
+      <!-- Section 2 my resume  -->
+      <section id="resume" name="resume">
+        <!--My Thesis--> 
+        <div class= "second-content"> 
+          <h2>M.S Thesis</h2>
+          <P> 'TCP-UB: A new congestion aware transmission control protocol variant', Advisor: Elleithy, Computer Science and Engineering, University of Bridgeport, 2012</P>
+        </div>
+
+      <hr>
+        <!-- Education -->
+        <div class= "third-content">
+          <h2>Education</h2>
+          <ul>
             <li><strong>    University of Bridgeport</strong> | Bridgeport, CT |
             M.S., Computer Science and Engineering | 2012| GPA:4.0</li>
             <li><strong>    Ben Alshor College</strong> | Tripoli, Libya | B.S. Computer Science | 2005| GPA:3.5</li>
-         </ul> 
-   </div>
+          </ul> 
+        </div>
 
-   
-       <div class= "SeventhContent">
-       <h2>Skills</h2>
-       <ul>
-       <li>C sharp Programming Language</li>
-       <li>Delphi OOP Programming Language</li>
-       <li>Database: Oracle 10g, SQL Service and MySQL, Distributed and parallel Database</li>
-       <li>Arabic speaker</li>
-        </ul>
+      <hr>
+        <!-- Professional Experience -->
+        <div class= "fourth-content">
+          <h2>Professional Experience</h2>
+            <h4>University of Bridgeport, Research Assistant (2010-2011)</h4>
+            <ul>
+              <li>Participated on team of students and faculty researchers</li>
+              <li>Regularly presenting and reviewing new research ideas</li>
+            </ul>
+            
+            <h4>University of Bridgeport, Graduate Assistant</h4>
+              <h5>Java class, Object Oriented Programming class, Algorithms and Analysis class and Technical Writing class (2012-2014)</h5>
+              <ul>
+                <li>Maintaining the lab</li> 
+                <li>Supporting students in their academic work</li>
+                <li>Assist students by proofreading their papers</li>
+              </ul>
 
-    </div>
-    
-    
-    
+            <h4>University of Bridgeport, Tutor in the Graduate Academic Resource Center, Fall 2014</h4>
+              <ul>
+              <li>Helping many students in several engineering subjects </li>
+              </ul>
 
-<div class= "EightContent">
-           <h2>Publication</h2>
-           <p>I have publiced more than 20 papers in the most prestigious national / international conferences and journals</p>
-</div>
+            <h4>University of Bridgeport, Graduate Assistant, Spring 2015</h4>
+            <ul>
+              <li>I run the Wireless and Mobile Communications (WMC) laboratory for The Advanced Wireless Sensor Network class</li>
+              <li>I helped the students with their academic work in Technical Writing class</li>
+              <li>I helped in ABET accreditation work for the evaluation of the Undergraduate Computer Engineering program</li>
+              <li>I run SPSS Lab for Research Design, and Data Analysis class</li>
+            </ul> 
 
-   
-    <div class= "FourthContent">
-        <h2>Professional Experience</h2>
+            <h4>Alshahid Abd Alsalam High School, Manager Assistant, 2004-2009, Libya</h4>
+            <ul>
+              <li>Track and report student and teacher data to measure performance and manage staffing levels </li>
+              <li>Review and make decisions on applications for admission</li>
+              <li>Plan and organize staff meetings</li>
+              <li>Maintain file system for teacher and student files</li>
+            </ul>  
+          
+            <h4>Patrol Company, Computer Department, Internship, 2005, Libya</h4>
+            <ul>
+              <li>Conduct projects using Delphi programming language </li>
+              <li>Fix and respond to employees problems with computers</li>
+              <li>Install operating systems, antivirus and other needed software</li> 
+            </ul>
+        </div>
         
-           <dl>
-            <dt>University of Bridgeport, Research Assistant 2010-2011</dt>
-         <dd>•	Participated on team of students and faculty researchers, including regularly presenting and reviewing new research ideas</dd>
-         </dl> 
-         
-         <dl>
-            <dt>University of Bridgeport,Graduate Assistant 
-            (Java Class, Object Oriented Programming class, Algorithms and Analysis class and Technical Writing class) 2012-2014 \</dt>
-              <dd>•	This position requires supporting students in their academic work, to run the Lab, and to help the students proofreading their papers</dd>
-         </dl> 
-         
-        <dl>
-        <dt>University of Bridgeport, Tutor in the Graduate Academic Resource Center, Fall 2014</dt>
-         <dd>•	Helping many students in several engineering subjects </dd>
-        </dl> 
-        
-        <dl>
-        <dt>University of Bridgeport,Graduate Assistant, spring 2015</dt>
-        <dd>•	I run the Wireless and Mobile Communications (WMC) laboratory for The Advanced Wireless Sensor Network class</dd>
-        <dd>•	I helped the students with their academic work in Technical Writing class</dd>
-        <dd>•	I helped in ABET accreditation work for the evaluation of the Undergraduate Computer Engineering program</dd>
-        <dd>•	I run SPSS Lab for Research Design, and Data Analysis class</dd>
-        </dl> 
-         
-        <dl>
-        <dt>Alshahid Abd Alsalam High School , Manager’s Assistant, 2004-2009, Libya</dt>
-         <dd>•	Track and report student and teacher data to measure performance and manage staffing levels </dd>
-         <dd>•	Review and make decisions on applications for admission</dd>
-         <dd>•	Plan and organize staff meetings</dd>
-         <dd>•	Maintain file system for teacher and student files</dd>
-        </dl>  
-         
-         <dl>
-        <dt>Patrol Company, Computer Department , Internship, 2005, Libya</dt>
-         <dd>•	Conduct projects using Delphi programming language </dd>
-         <dd>•	Fix and respond to employees’ problems with computers</dd>
-         <dd>•	Install operating systems, antivirus and other needed software</dd>
-        </dl> 
-        </article>
-   </div>
-   
-       
-      <div class= "FifthContent">
-            <ul> 
-            <h2>Professional Societies</h2>
-            <li>	President of the honor society of Upsilon by Epsilon organization University of Bridgeport Chapter since April 2014
-While Wafa served as Vice president 2012-2014 </li>
+        <hr>
+        <!-- Professioanl Societies-->
+        <div class= "fifth-content">
+          <h2>Professional Societies</h2>
+          <ul>   
+            <li>	President of the honor society of Upsilon by Epsilon organization University of Bridgeport Chapter since April 2014 While Wafa served as Vice president 2012-2014 </li>
             <li>	Member of the honor society Phi Kappa Phi University of Bridgeport Chapter since April 2012</li>
             <li>	Member of Women of Engineering Society since 2013</li>
             <li>	Member of Institute of Electrical and Electronics Engineers IEEE since 2014</li>
             <li>	Member of IEEE Communications Society since 2014</li>
             <li>	Member of Global and Health Help (GH2) </li>
             <li>Member of Second Chance, Libya 2005-2011</li>
+          </ul>
+        </div> 
+
+        <hr>
+        <!-- Publication -->
+        <div class= "sixth-content">
+          <h2>Publication</h2>
+          <p>I have publiced more than 20 papers in the most prestigious national / international conferences and journals; Click down on research gate icon to learn more about my publications</p>
+        </div>
+
+        <hr>
+        <!-- Section 3 Awards and Honors  -->
+      <section id="awards" name="awards">
+        <div class= "seventh-content">
+          <h2>Awards and Honors</h2>
+          <ul>
+            <li>Selected for 2016 Women of Inovation award, CTC 2016 </li>
+            <li>$20,000 award from the Association of University Women, International Fellowship for 2015-2016, for designing an intelligent frame work for assisting blind people navigating indoor and outdoor and make it economically accessible </li>
+            <li>UPE Executive Council Award ($2,500), 2015, The UPE Executive Council Award is UPE's highest award and was awarded only to three at the national level</li>
+            <li>Selected for 2015 Women of Inovation award, CTC 2015</li>
+            <li>Highest Standard Oil Academic Accomplishments of $1,000 Award, 2015</li>
+            <li>2015 Engineering Academic Achievement awards, University of Bridgeport - USA, 2015 </li>
+            <li>Third position in Faculty Research Day for presented poster, University of Bridgeport, 2015</li>
+            <li>2014 Engineering Academic Achievement awards, University of Bridgeport - USA, 2014 </li>
+            <li>2014 Best Professional Paper Award of the ASEE Conference, May 2014</li>
+            <li>Special Recognition Award $1,250 from the honor society of Upsilon by Epsilon organization, 2012</li>
+            <li>Third position in UB Faculty Research day event | University of Bridgeport -2012</li>
+            <li>Elected to The Honor Society of Upsilon by Epsilon organization to be a member</li>
+            <li>Recognized as honored student by Phi Kappa Phi - 2012</li>
+            <li>Graduated with highest honors, ranking 4th  among a number of students in B.S. Degree- 2005</li>
+          </ul> 
+        </div> 
+      </section>
+
+      <!-- Section4: Skills --> 
+      <section id="skills" name="skills">  
+        <div class= "eigth-content">
+        <h2>Skills</h2>
+        <i class="icon-csharp"></i> icon-csharp
+        <i class="icon-cplusplus"></i> icon-cplusplus
+        <i class="icon-html"></i> icon-html
+        <i class="icon-shell"></i> icon-shell
+        <br>
+        <i class="icon-oracle"></i> icon-oracle
+        <i class="icon-mysql"></i> icon-mysql
+        <i class="icon-database"></i> icon-database
+        </div>
+      </section>
         
-         </ul>
+      <!--Section5: Contact me-->
+      <section id="contact" name="contact"> 
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+		  <p><stong><i class="fa fa-mobile fa-2x  " ></i></stong><a href="   tel:  1-203-908-6390"> 203-908-6390</a></p>
+          <p><stong><i class="fa fa-envelope fa-2x  "></i></stong><a href="mailto:  welmanna@my.bridgeport.edu">welmanna@my.bridgeport.edu</a>
+          </p>
+        </div>
+      </section>
+           
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        <div>
+        <a href="https://www.facebook.com/profile.php?id=100001215593882"><img src="img/facebook.png" alt="facebook-profile" class ="trans"/></a>
+        <a href="https://www.linkedin.com/in/wafa-elmannai-70943261"><img src="img/linkin.png" alt="linkedin-profile" class ="trans"/></a>
+        <a href="https://plus.google.com/113540966854041890489/about"><img src="img/Googleplus.png" alt="google-plus-profile" class ="trans"/></a>
+        <a href="https://www.researchgate.net/profile/Wafa_Elmannai"> <img src="img/research.png" alt="research-gate-profile" class ="trans"/></a>
+        <a href="https://github.com/WafaElmannai"> <img src="http://image005.flaticon.com/25/svg/25/25231.svg" alt="Github profile" class ="trans"/></a>
+        </div>
+      </footer>
 
-   </div> 
-
-   <div class="contactInfo">
-   <h2> Contact Information</h2>
-      <p><stong>Cell:</stong>
-       <a href="tel:1-203-908-6390">203-908-6390</a></p>
-       <p><stong>Email:</stong> welmanna@my.bridgeport.edu </p>
-   </div>
-   
-   <div class= "SixthContent">
-            <dl> 
-            <dt><h2>Awards and Honors</h2>
-            </dt>
-            <dd>•	Selected for 2016 Women of Inovation award, CTC 2016 </dd>
-            <dd>•	$20,000 award from the Association of University Women, International Fellowship for 2015-2016, for designing an intelligent frame work for assisting blind people navigating indoor and outdoor and make it economically accessible </dd>
-            <dd>•	UPE Executive Council Award ($2,500), 2015, The UPE Executive Council Award is UPE's highest award and was awarded only to three at the national level</dd>
-            <dd>•	Selected for 2015 Women of Inovation award, CTC 2015</dd>
-            <dd>•	Highest Standard Oil Academic Accomplishments of $1,000 Award, 2015</dd>
-            <dd>•	2015 Engineering Academic Achievement awards, University of Bridgeport - USA, 2015 </dd>
-            <dd>•	Third position in Faculty Research Day for presented poster, University of Bridgeport, 2015</dd>
-            <dd>•	 2014 Engineering Academic Achievement awards, University of Bridgeport - USA, 2014 </dd>
-            <dd>•	2014 Best Professional Paper Award of the ASEE Conference, May 2014</dd>
-            <dd>•	Special Recognition Award $1,250 from the honor society of Upsilon by Epsilon organization, 2012</dd>
-            <dd>•	Third position in UB Faculty Research day event | University of Bridgeport -2012</dd>
-            <dd>•	 Elected to The Honor Society of Upsilon by Epsilon organization to be a member</dd>
-            <dd>•	 Recognized as honored student by Phi Kappa Phi - 2012</dd>
-            <dd>•	Graduated with highest honors, ranking 4th  among a number of students in B.S. Degree- 2005</dd>
-         </dl> 
-         </article>
-   </div> 
-
-  
-      </body>    
-        <footer class="mainFooter">
-        <p>Copyright &copy; Wafa Elmannai, 2016</p>
-        <a href="https://www.facebook.com/profile.php?id=100001215593882"><img src="facebook.png" class ="trans"/></a>
-
-        <a href="https://www.linkedin.com/in/wafa-elmannai-70943261"><img src="linkin.png" class ="trans"/></a>
-
-         <a href="https://plus.google.com/113540966854041890489/about"><img src="Googleplus.png" class ="trans"/></a>
-
-        <a href="https://www.researchgate.net/profile/Wafa_Elmannai"> <img src="research.png" class ="trans"/></a>
-         </footer>
-
-         
-
-
+</body>
 </html>
