@@ -1,31 +1,63 @@
 /* All style are in this document. */
 body {
-  background-color: #f2f2f2;
+  background-color: #F5F3EE;
   font-family: "Lato";
-  font-weight: 300em;
+  font-weight: 300;
   font-size: 1.2em ;
   color: #555;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
 
-  /* Titles */
+/* --- Titles --- */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
-  font-weight: 300em;
+  font-weight: 300;
 }
 
 h1, h2 {
-  color: red;
+  color: #7D1935;
+}
+
+/* ----- Image Style ----- */
+#header {
+  background: url(http://www.aauw.org/files/2015/08/2015-2016-International-Fellow-Wafa-Elmannai.jpg) no-repeat center top;
+  margin-top: 60px;
+
+  padding-top:140px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 799px) {
+  #header {
+    background: #727272;
+    min-height: 300px;
+    padding-top: 60px;
+  }
+}
+
+#header h1 {
+  font-size: 70px;
+  color: white;
+}
+
+#header h3 {
+  font-size: 20px;
+  color: white;
 }
 
 /* --- Paragraph --- */
-p {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 .centered {
   text-align: center;
@@ -83,7 +115,7 @@ hr {
 }
 
 #topbar-inner {
-  background: #BC8F8F;
+  background: #7D1935;
   line-height: 0;
   text-align: center;
 }
@@ -117,13 +149,13 @@ hr {
 }
 
 #section-topbar ul#nav a:hover {
-  background:   #b3b3b3;
+  background:   #f2f2f2;
   text-decoration: none;
   border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a {
-  background: #F08080;
+  background: #f2f2f2;
   border-left: 1px solid #111;
 }
 
@@ -135,185 +167,56 @@ hr {
   font-size: 25px;
 }
 
-/*------ Pictures Slider -----*/
-#hero {
-  width: 100%;
-  height: 500px;
-  display: block;
-  position: relative;
-  margin-top: 4%;
-}
 
-#slider {
-  width: 960px;
-  height: 500px;
-  display: block;
-  position: center;
-  margin: auto;
-  overflow: hidden;
-  display: block;
-}
-
-#play {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 48px;
-  background:rgba(102,204,0,.2);
-  color:#fff;
-  cursor: pointer;
-  z-index: 999; /*triple line*/
-  transform: rotate(90deg);
-  -webkit-transform:rotate(90deg);
-}
-
-#pause {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 88px;
-  background:rgba(102,204,0,.2);
-  color:#fff;
-  cursor: pointer;
-  z-index: 999; /*triple line*/
-  transform: rotate(90deg);
-  -webkit-transform:rotate(90deg);
-}
-
-#next {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background:rgba(102,204,0,.2);
-  color:#fff;
-  cursor: pointer;
-  z-index: 999; /*triple line*/
-}
-
-#prev {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 133px;
-  background:rgba(102,204,0,.2);
-  color:#fff;
-  cursor: pointer;
-  z-index: 999; /*triple line*/
-}
-
-#pager {
-  width: 100%;
-  text-align: center;
-  display:block;
-  position: absolute;
-  cursor: pointer;
-  z-index: 999;
-}
-
-#pager a{
-  font-size: 0.em;
-  color: transparent;
-  align: center;
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  position: relative;
-  border:1px solid #fff;
-  border-radius: 20px;
-  background: transparent;
-  margin: 10px;
-  background-size: cover;
-
-}
-
-
-#pager a.activeSlide {background: #fff;}
-
-.items {
-  width: 100%;
-  height: 30%;
-  background-size: cover;
-}
 
 /*-- CONTACT --*/
 .contact-info {
-  text-align: center;
-  background-color: #006A80;
+  background-color: #7D1935;
   padding: 2% 3%;
-
-}
-
-.contact-info p {
-  text-align: center;
   color: #fff;
+
 }
 
-/*------------My Main Sections-------------*/
+.contact-info i {
+  margin: auto 1%;
+}
+
+/*------------Style of My  Sections-------------*/
 /*-----------------------------------------*/
 
-.first-content {
+.about-content {
+  color: #FFF;
+  font-size: 1.5rem;
   margin: auto 1.5px;
-  background-color: #BC8F8F;
-  padding: 2% 3%;/* generats space around the content*/
-  display: block;
+  background-color: #C76476;
+  padding: 3% 5%;/* generats space around the content*/
+  padding-left: 20%;
 }
 
-.second-content {
-  margin: auto 1.5px;
-  padding: 2% 3%;
+.desc {
+    padding-top: 50px;
 }
 
-.third-content {
-  margin: auto 1.5px;
-  padding: 2% 3%;
+.desc p {
+    color: #2f2f2f;
+
 }
 
-.fourth-content {
-  margin: auto 1.5px;
-  padding: 2% 3%;
+.desc t {
+    color: #A93226;
+    font-weight: 700;
 }
 
 
-.fifth-content {
-  margin: auto 1.5px;
-  padding: 2% 3%;
-}
 
-.sixth-content { 
-  margin: auto 1.5px;
-  padding: 2% 3%;
-}
-
-.seventh-content {
-  margin: auto 1.5px;
-  padding: 2% 3%;
-}
 
 /*------- skills and info ------*/
 
-.eigth-content {
-  background-color: #BC8F8F;
+#skills {
   padding: 3% 5%;/* generats space around the content*/
 }
 
-.eigth-content i {
+#skills i {
     font-size: 10em;
     margin:  2% 3%;
 }
@@ -335,7 +238,6 @@ hr {
 
 .main-footer img {
   width: 40px;
-  height: 40px;
   padding-top: 1%;
   padding-bottom: 1%;
 }

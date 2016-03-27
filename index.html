@@ -12,33 +12,13 @@
         <!--import Mfizz font -->
         <link rel="stylesheet" href="font-mfizz-2.3.0/font-mfizz.css">
 
-        <!--import viewport-->
+        <!--import viewport AND BOOTSTRAP-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" media="screen and (max-width: Xpx) and (min-width: Ypx)" href="stylesheet.css" />
-
-        <!--import jquery files-->
-        <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-
-        <!--JavaScript function for pictures slider-->
-        <script type="text/javascript">
-          $(function() {
-              $('#play').click(function() { $('#slider').cycle('resume'); return false; });
-
-              $('#pause').click(function() { $('#slider').cycle('pause'); return false; });
-
-              $('#slider').cycle({
-                fx:     'scrollHorz',
-                next:   '#next',
-                prev:    '#prev',
-                pager:   '#pager',
-                timeout:   3000,
-                speed:    900,
-              });
-          });
-        </script> <!--End of JavaScript code-->
-
+        <link rel="stylesheet" media="screen and (max-width: Xpx) and (min-width: Ypx)" href="bootstrap.css" />
     </head>
 
     <body>
@@ -60,184 +40,374 @@
       </div><!--/ #topbar-inner -->
       </div><!--/ #section-topbar -->
 
-      <!-- pictures slider symbols-->
-      <div id="hero">
-      <div id="pager"></div>
-      <div id="pause">&asymp;</div>
-      <div id="play">&Delta;</div>
-      <div id="next">&rang;</div>
-      <div id="prev">&lang;</div>
-
-      <!--my 5 pictures to be slided -->
-      <div id="slider">
-        <div class="items">
-          <img src="http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg">
-        </div><!--end item1-->
-
-        <div class="items">
-          <img src="https://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg">
-        </div><!--end item2-->
-
-        <div class="items">
-          <img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg">
-        </div><!--end item3-->
-
-        <div class="items">
-          <img src="http://www.ontarioslakecountry.com/sites/default/files/Nature-Image-Wallpapers-HD-1024x576.jpg">
-        </div><!--end item4-->
-
-          <div class="items">
-           <img src="http://wowslider.com/sliders/demo-85/data1/images/southtyrol350698.jpg">
-          </div><!--end item5-->  
-        </div><!--end slider-->
-      </div><!--END-HERO-->
-<!--End of Pictures slider-->
+      <!-- Main Header-->
+      <div id="header">
+      <div class="container">
+      <div class="row centered">
+      <div class="col-lg-12 col-lg-offset-3">
+        <h1>Wafa Elmannai</h1>
+        <h3>PhD Student and Graduate Assistant</h3>
+        </div>
+      </div>
+      </div>
+      </div>
 
       <!-- Section 1 about me  -->  
       <section id="about" name="about">  
-        <div  class= "first-content">
-          <h2>About Me:</h2>
-          <h4>Hi, I am Wafa Elmannai, PhD student</h4><br>
-          	<p>I am Seeking funding to enhance my skills while continuing my ongoing research. I am also doble in C sharp Programming Language, C++, Delphi OOP Programming Language, Database: Oracle 10g, SQL Service and MySQL, Distributed and parallel Database 
-          	</p>
+        <div  class= "about-content">
+        <div class="row">
+        <div class="row">
+        <div class="col-md-2 col-lg-offset-1"><h4>ABOUT </h4></div>
+        <div class="col-md-6">
+            <p>Wafa is a research assistant and Ph.D. candidate in Computer science and Engineering. Wafa’s academic achievement, innovation, research and creativity are evident in several fellowships, distinctions, and awards she has received; including $20,000 international fellowship form AAWU and Highest Standard Oil Academic Accomplishment, 2015. Wafa is designing an intelligent economically accessible framework for blind people to make their life easier. Wafa published more than 20 research papers in national / international conferences and journals. Wafa is the President of the Honor society of UPE chapter of UB. 
+            </p>
+        </div>
+        </div>
         </div>
       </section> 
 
       <!-- Section 2 my resume  -->
       <section id="resume" name="resume">
-        <!--My Thesis--> 
-        <div class= "second-content"> 
-          <h2>M.S Thesis</h2>
-          <P> 'TCP-UB: A new congestion aware transmission control protocol variant', Advisor: Elleithy, Computer Science and Engineering, University of Bridgeport, 2012</P>
+        <!--Education-->
+        <div class="container desc">
+        <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>EDUCATION</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><t>PhD, Computer Science</t><br/>
+            University of Bridgeport<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Up to date</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>MS, Computer Science</t><br>
+            University of Bridgeport<br>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>MAY 2012</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>B.S. Computer Science</t><br/>
+            Ben Alshor College<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>May 2005</sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+  
+
+  <!-- Professional Experience -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>Professional Experience</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><t>Research Assistant</t><br/>
+            <em>University of Bridgeport</em></p>
+          <p><more>Regularly presenting and reviewing new research ideas</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2010-2011</sm></p>
         </div>
 
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Graduate Assistant</t><br/>
+            <em>University of Bridgeport</em></P>
+          <p><more>Maintaining the lab for Java class and Supporting students in their academic work for Object Oriented Programming class, Algorithms and Analysis class and Technical Writing class</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2012-2014</sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Tutor in the Graduate Academic Resource Center</t><br/>
+            <em>University of Bridgeport</em></p>
+          </p>
+          <p><more>Helping many students in several engineering subjects</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Fall 2014</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Graduate Assistant in Wireless and Mobile Communications Laboratory</t><br/>
+            <em>University of Bridgeport</em></p>
+          </p>
+          <p><more>I run the Wireless and Mobile Communications (WMC) laboratory for The Advanced Wireless Sensor Network class. Also, I run SPSS Lab for Research Design, and Data Analysis class.</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Up to date</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Manager Assistant</t><br/>
+            <em>Alshahid Abd Alsalam High School</em></p>
+          </p>
+          <p><more>Track and report student and teacher data to measure performance and manage staffing levels. Also, Review and make decisions on applications for admission. And, Maintain file system for teacher and student files</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2004-2009</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Internship</t><br/>
+            <em>Patrol Company, Computer Department</em></p>
+          </p>
+          <p><more>Conduct projects using Delphi programming language</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2004-2009</sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+
+
+<!-- Professioanl Societies-->
+<div class="container desc">
+        <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>Professional Societies</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><t>President of the honor society of Upsilon by Epsilon organization </t><br/>University of Bridgeport Chapter<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2014 - up to date</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Member of the honor society Phi Kappa Phi</t><br>
+            University of Bridgeport Chapter <br>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><sm>2012 - up to date</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Member of Women of Engineering Society</t><br/>
+            University of Bridgeport Chapter<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2013 - up to date</sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Member of Institute of Electrical and Electronics Engineers IEEE</t><br/>
+            IEEE Orgnization<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2014 - up to date</sm></p>
+        </div>
+
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Member of IEEE Communications Society</t><br/>
+            IEEE Orgnization<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2014 - up to date</sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+
+  <!-- Publication -->
+    <div class="container desc">
+     <div class="row">
+      <div class="col-lg-2 col-lg-offset-1">
+        <h5>Publication</h5>
+      </div>
+      <div class="col-lg-6">
+        <p><t>25 Publications</t>
+        <br/>I have publiced more than 20 papers in the most prestigious national / international conferences and journals; Click down on research gate icon to learn more about my publications<br/>
+        </p>
+      </div>
+      </div><!--/.row -->
+      <br>
       <hr>
-        <!-- Education -->
-        <div class= "third-content">
-          <h2>Education</h2>
-          <ul>
-            <li><strong>    University of Bridgeport</strong> | Bridgeport, CT |
-            M.S., Computer Science and Engineering | 2012| GPA:4.0</li>
-            <li><strong>    Ben Alshor College</strong> | Tripoli, Libya | B.S. Computer Science | 2005| GPA:3.5</li>
-          </ul> 
-        </div>
+   </div><!--/.container -->
 
-      <hr>
-        <!-- Professional Experience -->
-        <div class= "fourth-content">
-          <h2>Professional Experience</h2>
-            <h4>University of Bridgeport, Research Assistant (2010-2011)</h4>
-            <ul>
-              <li>Participated on team of students and faculty researchers</li>
-              <li>Regularly presenting and reviewing new research ideas</li>
-            </ul>
-            
-            <h4>University of Bridgeport, Graduate Assistant</h4>
-              <h5>Java class, Object Oriented Programming class, Algorithms and Analysis class and Technical Writing class (2012-2014)</h5>
-              <ul>
-                <li>Maintaining the lab</li> 
-                <li>Supporting students in their academic work</li>
-                <li>Assist students by proofreading their papers</li>
-              </ul>
-
-            <h4>University of Bridgeport, Tutor in the Graduate Academic Resource Center, Fall 2014</h4>
-              <ul>
-              <li>Helping many students in several engineering subjects </li>
-              </ul>
-
-            <h4>University of Bridgeport, Graduate Assistant, Spring 2015</h4>
-            <ul>
-              <li>I run the Wireless and Mobile Communications (WMC) laboratory for The Advanced Wireless Sensor Network class</li>
-              <li>I helped the students with their academic work in Technical Writing class</li>
-              <li>I helped in ABET accreditation work for the evaluation of the Undergraduate Computer Engineering program</li>
-              <li>I run SPSS Lab for Research Design, and Data Analysis class</li>
-            </ul> 
-
-            <h4>Alshahid Abd Alsalam High School, Manager Assistant, 2004-2009, Libya</h4>
-            <ul>
-              <li>Track and report student and teacher data to measure performance and manage staffing levels </li>
-              <li>Review and make decisions on applications for admission</li>
-              <li>Plan and organize staff meetings</li>
-              <li>Maintain file system for teacher and student files</li>
-            </ul>  
-          
-            <h4>Patrol Company, Computer Department, Internship, 2005, Libya</h4>
-            <ul>
-              <li>Conduct projects using Delphi programming language </li>
-              <li>Fix and respond to employees problems with computers</li>
-              <li>Install operating systems, antivirus and other needed software</li> 
-            </ul>
-        </div>
-        
-        <hr>
-        <!-- Professioanl Societies-->
-        <div class= "fifth-content">
-          <h2>Professional Societies</h2>
-          <ul>   
-            <li>	President of the honor society of Upsilon by Epsilon organization University of Bridgeport Chapter since April 2014 While Wafa served as Vice president 2012-2014 </li>
-            <li>	Member of the honor society Phi Kappa Phi University of Bridgeport Chapter since April 2012</li>
-            <li>	Member of Women of Engineering Society since 2013</li>
-            <li>	Member of Institute of Electrical and Electronics Engineers IEEE since 2014</li>
-            <li>	Member of IEEE Communications Society since 2014</li>
-            <li>	Member of Global and Health Help (GH2) </li>
-            <li>Member of Second Chance, Libya 2005-2011</li>
-          </ul>
-        </div> 
-
-        <hr>
-        <!-- Publication -->
-        <div class= "sixth-content">
-          <h2>Publication</h2>
-          <p>I have publiced more than 20 papers in the most prestigious national / international conferences and journals; Click down on research gate icon to learn more about my publications</p>
-        </div>
-
-        <hr>
-        <!-- Section 3 Awards and Honors  -->
+    <!-- Section 3 Awards and Honors  -->
       <section id="awards" name="awards">
-        <div class= "seventh-content">
-          <h2>Awards and Honors</h2>
-          <ul>
-            <li>Selected for 2016 Women of Inovation award, CTC 2016 </li>
-            <li>$20,000 award from the Association of University Women, International Fellowship for 2015-2016, for designing an intelligent frame work for assisting blind people navigating indoor and outdoor and make it economically accessible </li>
-            <li>UPE Executive Council Award ($2,500), 2015, The UPE Executive Council Award is UPE's highest award and was awarded only to three at the national level</li>
-            <li>Selected for 2015 Women of Inovation award, CTC 2015</li>
-            <li>Highest Standard Oil Academic Accomplishments of $1,000 Award, 2015</li>
-            <li>2015 Engineering Academic Achievement awards, University of Bridgeport - USA, 2015 </li>
-            <li>Third position in Faculty Research Day for presented poster, University of Bridgeport, 2015</li>
-            <li>2014 Engineering Academic Achievement awards, University of Bridgeport - USA, 2014 </li>
-            <li>2014 Best Professional Paper Award of the ASEE Conference, May 2014</li>
-            <li>Special Recognition Award $1,250 from the honor society of Upsilon by Epsilon organization, 2012</li>
-            <li>Third position in UB Faculty Research day event | University of Bridgeport -2012</li>
-            <li>Elected to The Honor Society of Upsilon by Epsilon organization to be a member</li>
-            <li>Recognized as honored student by Phi Kappa Phi - 2012</li>
-            <li>Graduated with highest honors, ranking 4th  among a number of students in B.S. Degree- 2005</li>
-          </ul> 
-        </div> 
+      <div class="container desc">
+        <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>Awards and Honors</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><t>2016 Women of Inovation award, Collegian Innovation and Leadership </t><br/>Connecticut Technology Council<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2016</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>$20,000 International Fellowship on the proposal of designing an intelligent frame work for assisting blind people navigating indoor and outdoor and make it economically accessible</t>
+          <br>The Association of University Women <br>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2015 - 2016</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>$2,500 UPE Executive Council Award</t><br/>
+            Upsilon Pi Epsilon international Honor Society for the Computing and Information Disciplines<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2015</sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>2015 Women of Inovation award, Collegian Innovation and Leadership </t><br/>Connecticut Technology Council<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2015</sm><br/>
+          </p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Highest Standard Oil Academic Accomplishments of $1,000 Award</t><br/>
+            Standard Oil Company<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2015</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>2015 Engineering Academic Achievement award</t><br/>
+            University of Bridgeport<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2014 and 2015</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Third position in Faculty Research Day for presented poster</t><br/>
+            University of Bridgeport<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2015</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t> Best Professional Paper Award</t><br/>
+            ASEE Conference<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2014</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Special Recognition Award $1,250</t><br/>
+            Upsilon Pi Epsilon international Honor Society for the Computing and Information Disciplines<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2012</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Third position in UB Faculty Research day event</t><br/>
+            University of Bridgeport<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2012</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Recognized as honored student</t><br/>
+            Ben Alshor College<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2012</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Graduated with highest honors, ranking 4th  among a number of students in B.S. Degree</t><br/>
+            Phi Kappa Phi Honor Society<br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>2005</sm></p>
+        </div>
+        </div><!--/.row -->
+        <br>
+        <hr>
+        </div><!--/.container -->
       </section>
 
       <!-- Section4: Skills --> 
       <section id="skills" name="skills">  
-        <div class= "eigth-content">
-        <h2>Skills</h2>
-        <i class="icon-csharp"></i> icon-csharp
-        <i class="icon-cplusplus"></i> icon-cplusplus
-        <i class="icon-html"></i> icon-html
-        <i class="icon-shell"></i> icon-shell
-        <br>
-        <i class="icon-oracle"></i> icon-oracle
-        <i class="icon-mysql"></i> icon-mysql
-        <i class="icon-database"></i> icon-database
-        </div>
+        <div id="skills">
+          <div class="container">
+          <div class="row">
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>SKILLS</h5>
+          </div>
+          <div class="col-lg-3 centered">
+            <i class="icon-csharp"></i>
+            <p>C sharp</p>
+          </div>
+          <div class="col-lg-3 centered">
+            <i class="icon-cplusplus"></i>
+            <p>Cplusplus</p>
+          </div>
+          <div class="col-lg-3 centered">
+            <i class="icon-html"></i>
+            <p>HTML/CSS</p>
+          </div>
+          <div class="col-lg-3 col-lg-offset-3 centered">
+            <i class="icon-shell"></i>
+            <p>shell</p>
+          </div>
+          <div class="col-lg-3 centered">
+            <i class="icon-oracle"></i>
+            <p>oracle</p>
+          </div>
+          <div class="col-lg-3 centered">
+            <i class="icon-mysql"></i>
+            <p>MySql</p>
+          </div>
+          </div><!--/.row -->
+          <br>
+          </div><!--/.container -->
+        </div><!--/ #skills -->
       </section>
         
       <!--Section5: Contact me-->
       <section id="contact" name="contact"> 
-        <div class="contact-info">
-          <h2>Contact Me</h2>
-		  <p><stong><i class="fa fa-mobile fa-2x  " ></i></stong><a href="   tel:  1-203-908-6390"> 203-908-6390</a></p>
-          <p><stong><i class="fa fa-envelope fa-2x  "></i></stong><a href="mailto:  welmanna@my.bridgeport.edu">welmanna@my.bridgeport.edu</a>
-          </p>
+       <div class="contact-info">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>CONTACT</h5>
         </div>
+        <div class="col-lg-9">
+          <p><stong><i class="fa fa-mobile fa-2x  " ></i></stong><a href="   tel:  1-203-908-6390"> 203-908-6390</a></p>
+          <p><stong><i class="fa fa-envelope fa-2x  "></i></stong><a href="mailto:  welmanna@my.bridgeport.edu">welmanna@my.bridgeport.edu</a></p>
+        </div>
+        </div><!--/.row -->
+        </div><!--/.container -->
+        </div><!--/ #CONTACT -->
       </section>
            
       <!-- FOOTER -->
