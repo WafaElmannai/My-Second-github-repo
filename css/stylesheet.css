@@ -193,6 +193,10 @@ hr {
   padding-left: 20%;
 }
 
+section {
+  padding-top: 50px;
+}
+
 .desc {
     padding-top: 50px;
 }
